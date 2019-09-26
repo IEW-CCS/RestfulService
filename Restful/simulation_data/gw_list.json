@@ -1,0 +1,62 @@
+{"gateway_list": [ 
+  {
+    "status": "Run",
+    "gateway_id": "gateway001",
+    "device_id": "device001"
+  },
+  {
+    "status": "Down",
+    "gateway_id": "gateway001",
+    "device_id": "device002"
+  },
+  {
+    "status": "Down",
+    "gateway_id": "gateway002",
+    "device_id": "device003"
+  },
+  {
+    "status": "Ready",
+    "gateway_id": "gateway002",
+    "device_id": "device004"
+  },
+  {
+    "status": "Ready",
+    "gateway_id": "gateway003",
+    "device_id": "device005"
+  },
+  {
+    "status": "Idle",
+    "gateway_id": "gateway003",
+    "device_id": "device006"
+  },
+  {
+    "status": "Run",
+    "gateway_id": "gateway004",
+    "device_id": "device007"
+  },
+  {
+    "status": "Run",
+    "gateway_id": "gateway004",
+    "device_id": "device008"
+  },
+  {
+    "status": "Run",
+    "gateway_id": "gateway005",
+    "device_id": "device009"
+  },
+  {
+    "status": "Ready",
+    "gateway_id": "gateway005",
+    "device_id": "device010"
+  },
+  {
+    "status": "Run",
+    "gateway_id": "gateway006",
+    "device_id": "device011"
+  },
+  {
+    "status": "Run",
+    "gateway_id": "gateway006",
+    "device_id": "device012"
+  }
+]}

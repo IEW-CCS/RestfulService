@@ -1,0 +1,294 @@
+{"device_item_list": [ 
+  {
+    "device_id": "device001",
+    "item_list": [
+      {
+        "item_name": "D1_ITEM1",
+        "chart_type": "3"
+      },
+      {
+        "item_name": "D1_ITEM2",
+        "chart_type": "0"
+      },
+      {
+        "item_name": "D1_ITEM3",
+        "chart_type": "2"
+      },
+      {
+        "item_name": "D1_ITEM4",
+        "chart_type": "4"
+      },
+      {
+        "item_name": "D1_ITEM5",
+        "chart_type": "3"
+      }
+    ]
+  },
+  {
+    "device_id": "device002",
+    "item_list": [
+      {
+        "item_name": "D2_ITEM1",
+        "chart_type": "2"
+      },
+      {
+        "item_name": "D2_ITEM2",
+        "chart_type": "3"
+      },
+      {
+        "item_name": "D2_ITEM3",
+        "chart_type": "4"
+      }
+    ]
+  },
+  {
+    "device_id": "device003",
+    "item_list": [
+      {
+        "item_name": "D3_ITEM1",
+        "chart_type": "1"
+      },
+      {
+        "item_name": "D3_ITEM2",
+        "chart_type": "2"
+      },
+      {
+        "item_name": "D3_ITEM3",
+        "chart_type": "3"
+      },
+      {
+        "item_name": "D3_ITEM4",
+        "chart_type": "4"
+      },
+      {
+        "item_name": "D3_ITEM5",
+        "chart_type": "0"
+      }
+    ]
+  },
+  {
+    "device_id": "device004",
+    "item_list": [
+      {
+        "item_name": "D4_ITEM1",
+        "chart_type": "1"
+      },
+      {
+        "item_name": "D4_ITEM2",
+        "chart_type": "2"
+      },
+      {
+        "item_name": "D4_ITEM3",
+        "chart_type": "3"
+      },
+      {
+        "item_name": "D4_ITEM4",
+        "chart_type": "4"
+      },
+      {
+        "item_name": "D4_ITEM5",
+        "chart_type": "0"
+      }
+    ]
+  },
+  {
+    "device_id": "device005",
+    "item_list": [
+      {
+        "item_name": "D5_ITEM1",
+        "chart_type": "1"
+      },
+      {
+        "item_name": "D5_ITEM2",
+        "chart_type": "2"
+      },
+      {
+        "item_name": "D5_ITEM3",
+        "chart_type": "3"
+      },
+      {
+        "item_name": "D5_ITEM4",
+        "chart_type": "4"
+      },
+      {
+        "item_name": "D5_ITEM5",
+        "chart_type": "0"
+      }
+    ]
+  },
+  {
+    "device_id": "device006",
+    "item_list": [
+      {
+        "item_name": "D6_ITEM1",
+        "chart_type": "1"
+      },
+      {
+        "item_name": "D6_ITEM2",
+        "chart_type": "2"
+      },
+      {
+        "item_name": "D6_ITEM3",
+        "chart_type": "3"
+      },
+      {
+        "item_name": "D6_ITEM4",
+        "chart_type": "4"
+      },
+      {
+        "item_name": "D6_ITEM5",
+        "chart_type": "0"
+      }
+    ]
+  },
+  {
+    "device_id": "device007",
+    "item_list": [
+      {
+        "item_name": "D7_ITEM1",
+        "chart_type": "1"
+      },
+      {
+        "item_name": "D7_ITEM2",
+        "chart_type": "2"
+      },
+      {
+        "item_name": "D7_ITEM3",
+        "chart_type": "3"
+      },
+      {
+        "item_name": "D7_ITEM4",
+        "chart_type": "4"
+      },
+      {
+        "item_name": "D7_ITEM5",
+        "chart_type": "0"
+      }
+    ]
+  },
+  {
+    "device_id": "device008",
+    "item_list": [
+      {
+        "item_name": "D8_ITEM1",
+        "chart_type": "1"
+      },
+      {
+        "item_name": "D8_ITEM2",
+        "chart_type": "2"
+      },
+      {
+        "item_name": "D8_ITEM3",
+        "chart_type": "3"
+      },
+      {
+        "item_name": "D8_ITEM4",
+        "chart_type": "4"
+      },
+      {
+        "item_name": "D8_ITEM5",
+        "chart_type": "0"
+      }
+    ]
+  },
+  {
+    "device_id": "device009",
+    "item_list": [
+      {
+        "item_name": "D9_ITEM1",
+        "chart_type": "1"
+      },
+      {
+        "item_name": "D9_ITEM2",
+        "chart_type": "2"
+      },
+      {
+        "item_name": "D9_ITEM3",
+        "chart_type": "3"
+      },
+      {
+        "item_name": "D9_ITEM4",
+        "chart_type": "4"
+      },
+      {
+        "item_name": "D9_ITEM5",
+        "chart_type": "0"
+      }
+    ]
+  },
+  {
+    "device_id": "device010",
+    "item_list": [
+      {
+        "item_name": "D10_ITEM1",
+        "chart_type": "1"
+      },
+      {
+        "item_name": "D10_ITEM2",
+        "chart_type": "2"
+      },
+      {
+        "item_name": "D10_ITEM3",
+        "chart_type": "3"
+      },
+      {
+        "item_name": "D10_ITEM4",
+        "chart_type": "4"
+      },
+      {
+        "item_name": "D10_ITEM5",
+        "chart_type": "0"
+      }
+    ]
+  },
+  {
+    "device_id": "device011",
+    "item_list": [
+      {
+        "item_name": "D11_ITEM1",
+        "chart_type": "1"
+      },
+      {
+        "item_name": "D11_ITEM2",
+        "chart_type": "2"
+      },
+      {
+        "item_name": "D11_ITEM3",
+        "chart_type": "3"
+      },
+      {
+        "item_name": "D11_ITEM4",
+        "chart_type": "4"
+      },
+      {
+        "item_name": "D11_ITEM5",
+        "chart_type": "0"
+      }
+    ]
+  },
+  {
+    "device_id": "device012",
+    "item_list": [
+      {
+        "item_name": "D12_ITEM1",
+        "chart_type": "1"
+      },
+      {
+        "item_name": "D12_ITEM2",
+        "chart_type": "2"
+      },
+      {
+        "item_name": "D12_ITEM3",
+        "chart_type": "3"
+      },
+      {
+        "item_name": "D12_ITEM4",
+        "chart_type": "4"
+      },
+      {
+        "item_name": "D12_ITEM5",
+        "chart_type": "0"
+      }
+    ]
+  }
+]}

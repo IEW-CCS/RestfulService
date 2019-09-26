@@ -1,0 +1,57 @@
+{
+	"profile_list": [{
+		"BLECategory": "Category1",
+		"BLEName": "BLE001",
+		"BLEDescription": "The first BLE Peripheral",
+		"ServiceUUID": "A001",
+		"CharacteristicUUID": [{
+			"UUID": "C001",
+			"ItemList": [
+			    {"DataName": "Data001", "DataType": "FLOAT"},
+				{"DataName": "Data002", "DataType": "FLOAT"},
+				{"DataName": "Data003", "DataType": "FLOAT"}]}],
+		"ConfigParameterList": [{
+			"UUID": "C001",
+			"ItemList": [
+			    {"DataName": "Data004", "DataType": "FLOAT"},
+				{"DataName": "Data005", "DataType": "FLOAT"},
+				{"DataName": "Data006", "DataType": "FLOAT"}]}],
+		"ProfileCreateTime": "2019 / 09 / 10 10: 00: 08.888 "
+	},
+	{
+		"BLECategory": "Category1",
+		"BLEName": "BLE002",
+		"BLEDescription": "The second BLE Peripheral",
+		"ServiceUUID": "A001",
+		"CharacteristicUUID": [{
+			"UUID": "C001",
+			"ItemList": [
+			    {"DataName": "Data007", "DataType": "FLOAT"},
+				{"DataName": "Data008", "DataType": "FLOAT"},
+				{"DataName": "Data009", "DataType": "FLOAT"}]}],
+		"ConfigParameterList": [{
+			"UUID": "C001",
+			"ItemList": [
+				{"DataName": "Data010", "DataType": "FLOAT"},
+				{"DataName": "Data011", "DataType": "FLOAT"}]}],
+		"ProfileCreateTime": "2019 / 09 / 10 10: 00: 08.888 "
+	},
+	{
+		"BLECategory": "Category2",
+		"BLEName": "BLE003",
+		"BLEDescription": "The third BLE Peripheral",
+		"ServiceUUID": "A001",
+		"CharacteristicUUID": [{
+			"UUID": "C001",
+			"ItemList": [
+				{"DataName": "Data012", "DataType": "FLOAT"},
+				{"DataName": "Data013", "DataType": "STRING"}]}],
+		"ConfigParameterList": [{
+			"UUID": "C001",
+			"ItemList": [
+			    {"DataName": "Data014", "DataType": "FLOAT"},
+				{"DataName": "Data015", "DataType": "STRING"},
+				{"DataName": "Data016", "DataType": "INT"}]}],
+		"ProfileCreateTime": "2019 / 09 / 10 10: 00: 08.888 "
+	}]
+}

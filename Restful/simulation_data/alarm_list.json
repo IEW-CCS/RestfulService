@@ -1,0 +1,29 @@
+{"alarm_list": [ 
+  {
+    "GatewayID": "gateway001",
+    "DeviceID": "device001",
+    "AlarmCode": "0001",
+    "AlarmLevel": "I",
+    "AlarmApp": "WORKER",
+    "DateTime": "2019/09/02 21:00:06.666",
+    "AlarmDesc": "I am fine"
+  },
+  {
+    "GatewayID": "gateway001",
+    "DeviceID": "device001",
+    "AlarmCode": "0002",
+    "AlarmLevel": "E",
+    "AlarmApp": "IOTCLIENT",
+    "DateTime": "2019/09/02 21:00:08.888",
+    "AlarmDesc": "2 NG Message"
+  },
+  {
+    "GatewayID": "gateway001",
+    "DeviceID": "device002",
+    "AlarmCode": "0003",
+    "AlarmLevel": "W",
+    "AlarmApp": "FIRMWARE",
+    "DateTime": "2019/09/02 21:00:07.777",
+    "AlarmDesc": "3 NG Message"
+  }
+]}

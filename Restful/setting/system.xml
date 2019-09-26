@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Setting>
+    <My_SQL>
+       <providername>MySql.Data.MySqlClient</providername>
+       <connection_string>server=127.0.0.1; port=3306; database=iotdb; uid=root; password=qQ123456</connection_string> 
+    </My_SQL>
+</Setting>
