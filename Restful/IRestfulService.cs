@@ -40,6 +40,10 @@ namespace Restful
 
         //------- for simulation ------
         [OperationContract]
+        [WebGet(UriTemplate = "simulation/CCS_ARE_YOU_THERE", BodyStyle = WebMessageBodyStyle.Bare, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
+        CCS_Online_Status Simu_AreYouThere();
+
+        [OperationContract]
         [WebGet(UriTemplate = "simulation/CCS_Gateway_List", BodyStyle = WebMessageBodyStyle.Bare, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
         CCS_Gateway_List Simu_GetGatewayList();
 

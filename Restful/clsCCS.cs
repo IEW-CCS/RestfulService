@@ -30,6 +30,12 @@ namespace Restful
         }
     }
 
+    [DataContract]
+    public class CCS_Online_Status
+    {
+        [DataMember]
+        public string status { get; set; }
+    }
 
     [DataContract]
     public class CCS_Gateway_List
