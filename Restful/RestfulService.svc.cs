@@ -22,6 +22,7 @@ namespace Restful
         private static string simudatapath = Path.Combine(System.AppDomain.CurrentDomain.BaseDirectory, "simulation_data");
         public static Logger _logger = LogManager.GetCurrentClassLogger();
         public static Config _config = new Config(configpath);
+        private static readonly Random getrandom = new Random();
 
 
         public string GetData(int value)
@@ -1031,5 +1032,48 @@ namespace Restful
             return profile_list;
         }
 
+        public CCS_Chart_Info_Reply Simu_PostDeviceDetail(CCS_Chart_Info_Req info)
+        {
+
+            CCS_Chart_Info_Reply replydata = new CCS_Chart_Info_Reply();
+            replydata.device_id = info.device_id;
+
+            int data_count;
+
+            DateTime start_datetime;
+            DateTime end_datetime;
+            string formatString = "yyyyMMddHHmmss";
+
+            try
+            {
+                data_count = int.Parse(info.get_count);
+                start_datetime = DateTime.ParseExact(info.start_time, formatString, null);
+                end_datetime = DateTime.ParseExact(info.end_time, formatString, null);
+            }
+            catch (Exception ex)
+            {
+                return replydata;
+            }
+
+            TimeSpan ts = end_datetime.Subtract(start_datetime).Duration();
+            int secondsbyrecord =Convert.ToInt32( ts.TotalSeconds / (double)data_count);
+
+            for (int i=0; i< data_count; i++)
+            {
+                int add_seconds = secondsbyrecord * i;
+                DateTime tmp = start_datetime.AddSeconds(add_seconds);
+                string tmp_x = tmp.ToString("yyyyMMddHHmmss");
+                string tmp_y = GetRandomNumber(10.0, 100.0).ToString();
+                CCS_Chart_Body tmp_chart = new CCS_Chart_Body(tmp_y, tmp_x);
+                replydata.data_list.Add(tmp_chart);
+
+            }
+            return replydata;
+        }
+
+        public double GetRandomNumber(double minimum, double maximum)
+        {
+            return getrandom.NextDouble() * (maximum - minimum) + minimum;
+        }
     }
 }

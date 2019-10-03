@@ -197,6 +197,14 @@ namespace Restful
         [DataMember]
         public string chart_name { get; set; }
 
+        [DataMember]
+        public string get_count { get; set; }
+
+        [DataMember]
+        public string start_time { get; set; }
+
+        [DataMember]
+        public string end_time { get; set; }
     }
 
     [DataContract]

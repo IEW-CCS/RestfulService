@@ -64,6 +64,10 @@ namespace Restful
         BLEProfileList Simu_GetBLEProfileList();
 
 
+        [OperationContract]
+        [WebInvoke(Method = "POST", UriTemplate = "simulation/CCS_Chart/Info", BodyStyle = WebMessageBodyStyle.Bare, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
+        CCS_Chart_Info_Reply Simu_PostDeviceDetail(CCS_Chart_Info_Req info);
+
     }
 
 
