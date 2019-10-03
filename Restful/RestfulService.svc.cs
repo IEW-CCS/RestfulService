@@ -958,6 +958,15 @@ namespace Restful
 
         }
 
+
+        public CCS_Online_Status AreYouThere()
+        {
+            CCS_Online_Status myStatus = new CCS_Online_Status();
+            myStatus.status = "YES";
+            return myStatus;
+        }
+
+
         public CCS_Online_Status Simu_AreYouThere()
         {
             CCS_Online_Status myStatus = new CCS_Online_Status();

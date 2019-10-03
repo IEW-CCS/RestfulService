@@ -20,6 +20,11 @@ namespace Restful
         CompositeType GetDataUsingDataContract(CompositeType composite);
 
 
+        //------- for simulation ------
+        [OperationContract]
+        [WebGet(UriTemplate = "CCS_ARE_YOU_THERE", BodyStyle = WebMessageBodyStyle.Bare, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
+        CCS_Online_Status AreYouThere();
+
         [OperationContract]
         [WebGet(UriTemplate = "CCS_Gateway_List", BodyStyle = WebMessageBodyStyle.Bare, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
         CCS_Gateway_List GetGatewayList();
@@ -63,13 +68,10 @@ namespace Restful
         [WebGet(UriTemplate = "simulation/CCS_BLE_Profile_List", BodyStyle = WebMessageBodyStyle.Bare, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
         BLEProfileList Simu_GetBLEProfileList();
 
-
         [OperationContract]
         [WebInvoke(Method = "POST", UriTemplate = "simulation/CCS_Chart/Info", BodyStyle = WebMessageBodyStyle.Bare, RequestFormat = WebMessageFormat.Json, ResponseFormat = WebMessageFormat.Json)]
         CCS_Chart_Info_Reply Simu_PostDeviceDetail(CCS_Chart_Info_Req info);
 
     }
 
-
-    
 }
